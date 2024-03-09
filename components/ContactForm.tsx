@@ -29,7 +29,7 @@ const ContactForm = () => {
       </div>
       <button
         type="submit"
-        className="px-6 mb-10 py-3 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-blue-500 hover:bg-blue-400"
+        className="px-6 mb-2 md:mb-10 py-3 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-blue-500 hover:bg-blue-400"
       >
         Send a message
       </button>

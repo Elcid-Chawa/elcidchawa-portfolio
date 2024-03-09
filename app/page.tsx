@@ -11,16 +11,28 @@ export default function Home() {
         style={{ backgroundImage: "url(/main-bg.webp)" }}
       >
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
-          <h1 className="text-[50px] text-white font-semibold">
-            Make anything possible with
+          <h1 className="text-lg md:text-4xl text-balance text-white font-semibold">
+            Software Developer | IT Consultant 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
-              {" "}
-              Web Development
+              {" "}| Tech Community Lead | Google
+            Crowdsourse ML Influencer 
             </span>
           </h1>
           <p className="text-gray-200 hidden md:block">
-            I am a fullstack web developer with over 7 years experience building
-            cutting edge software applications. 
+            I am a fullstack Software developer with a passion for creating
+            innovative solutions with emerging technologies. With strong ability
+            to adapt to any programming language due to my Computer Science
+            backgroud, I am able to incoporate my experience in various domains
+            including but not limited to AI, ML, GenAI. Reach to{" "}
+            <a href="/contact-me">me</a> to learn more.
+          </p>
+          <p className="text-gray-200 text-sm  md:hidden">
+            I am a fullstack Software developer with a passion for creating
+            innovative solutions with emerging technologies. With strong ability
+            to adapt to any programming language due to my Computer Science
+            backgroud, I am able to incoporate my experience in various domains
+            including but not limited to AI, ML, GenAI. Reach to{" "}
+            <a href="/contact-me">me</a> to learn more.
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
@@ -69,7 +81,7 @@ export default function Home() {
         </Link>
       </div>
 
-      <div className="absolute bottom-0 right-0 z-[10]">
+      <div className="absolute bottom-0 right-0 md:z-[10]">
         <Image
           src="/horse.png"
           alt="horse"

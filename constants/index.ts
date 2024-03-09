@@ -45,10 +45,16 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Next js 13",
+    name: "Next js 14",
     Image: "/next.png",
     width: 80,
     height: 80,
+  },
+  {
+    name: "Flutter",
+    Image: "/flutter.png",
+    width: 60,
+    height: 60,
   },
   {
     name: "Framer Motion",
@@ -73,6 +79,24 @@ export const SkillData = [
     Image: "/mongodb.png",
     width: 40,
     height: 40,
+  },
+  {
+    name: "AWS",
+    Image: "/aws.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Azure",
+    Image: "/azure.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "GCP",
+    Image: "/gcp.png",
+    width: 80,
+    height: 80,
   },
 ];
 
@@ -107,22 +131,23 @@ export const Projects = [
   {
     title: "Modern Nextjs Website",
     text: "Working on modern web applciations using latest nextjs 14. Buildig landing pages.",
-    src: "/NextWebsite.png",
+    src: "/pxrlm.png",
   },
   {
-    title: "Dashboards",
-    text: "Building sofisticated dashboards for systems to help monitor user activities.",
-    src: "/SpaceWebsite.png",
+    title: "Sports Academy Site",
+    text: "Sports academy systems to manage teams and showcase activities.",
+    src: "/academy.png",
   },
   {
-    title: "Software Systems",
+    title: "Appication System Development",
     text: "Software systems for inventory management, payment gateways integration, mobile app development with Flutter ...",
     src: "/WebPortfolio.png",
   },
   {
-    title: "Weather APP",
-    text: "Leverage the use of API's to integrate in app.",
-    src: "/Matrix.png",
+    title: "Tax Tracker",
+    text: "This application to enable local councils track tax payments for small business owners. \
+    Built with sofisticated dashboards for systems to help monitor user activities",
+    src: "/coucil.png",
   },
 ];
 
