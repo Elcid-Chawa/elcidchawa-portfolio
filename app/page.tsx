@@ -10,7 +10,7 @@ export default function Home() {
         className="flex items-center w-full h-full bg-cover bg-center"
         style={{ backgroundImage: "url(/main-bg.webp)" }}
       >
-        <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
+        <div className="pl-20 pt-10 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
           <h1 className="text-lg md:text-4xl text-balance text-white font-semibold">
             Software Developer | IT Consultant 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
@@ -81,17 +81,6 @@ export default function Home() {
         </Link>
       </div>
 
-      <div className="absolute bottom-0 right-0 md:z-[10]">
-        <Image
-          src="/horse.png"
-          alt="horse"
-          height={300}
-          width={300}
-          className="absolute right-55 top-40"
-        />
-
-        <Image src="/cliff.webp" alt="cliff" width={480} height={480} />
-      </div>
 
       <div className="absolute bottom-0 z-[5] w-full h-auto">
         <Image
