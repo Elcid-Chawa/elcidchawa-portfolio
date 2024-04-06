@@ -119,7 +119,7 @@ export const Socials = [
   {
     name: "Discord",
     src: "/discord.svg",
-    url: "https://",
+    url: "https://discord.com/users/elcid2377",
   },
   {
     name: "LinkedIn",
@@ -132,22 +132,25 @@ export const Projects = [
     title: "Modern Nextjs Website",
     text: "Working on modern web applciations using latest nextjs 14. Buildig landing pages.",
     src: "/pxrlm.png",
+    url: "https://pixel-realm.net",
   },
   {
     title: "Sports Academy Site",
     text: "Sports academy systems to manage teams and showcase activities.",
     src: "/academy.png",
+    url: "https://chawabasketballacademy.web.app",
   },
   {
     title: "Appication System Development",
     text: "Software systems for inventory management, payment gateways integration, mobile app development with Flutter ...",
     src: "/WebPortfolio.png",
+    url: "Coming soon...",
   },
   {
     title: "Tax Tracker",
-    text: "This application to enable local councils track tax payments for small business owners. \
-    Built with sofisticated dashboards for systems to help monitor user activities",
+    text: "Dashboard to help businesses track activites, providing analytics and insights",
     src: "/coucil.png",
+    url: "https://github.com/Elcid-Chawa/couciltaxtracker",
   },
 ];
 
